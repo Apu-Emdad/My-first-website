@@ -1,0 +1,14 @@
+.nivoSlider{
+    width: 960px;
+    margin: 0 auto;
+}
+.theme-dark.slider-wrapper {
+    background: none;
+}
+.theme-dark .nivo-controlNav{
+    text-align: center;
+}
+.nivo-caption{
+    bottom: 60px;
+    width: 39%;
+}

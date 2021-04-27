@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>47. My first website</title>
+
+    <link rel="stylesheet" href="assets/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/Nivo_css/style.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="header">
+                <h2>My First Website (NOOB ALERT)</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, unde.</p>
+            </div>
+        </header>
+
+
+        <nav>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li>Services &raquo;
+                        <ul>
+                            <li><a href="#">Marketing</a></li>
+                            <li>Design &raquo;
+                                <ul>
+                                    <li><a href="#">web</a></li>
+                                    <li><a href="#">graphics</a></li>
+                                    <li><a href="#">Interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Branding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+
+            <div class="slider-wrapper theme-dark">
+                <div id="slider" class="nivoSlider">
+                    <img src="assets/images/nature1.jpg" />
+                    <img src="assets/images/nature2.jpg" />
+                    <img src="assets/images/nature3.jpg" />
+                    <img src="assets/images/nature4.jpg" />
+                </div>
+            </div>
+
+
+            <div id="content_wrap">
+
+                <div id="content">
+                    <article>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, tempore iusto
+                            ea quod hic
+                            itaque impedit qui libero suscipit placeat vero in totam sunt consectetur omnis quae
+                            corporis
+                            nihil maxime ex! Numquam quam deserunt eos corrupti ea eum animi, ratione iusto,
+                            commodi aperiam
+                            totam illo ducimus aspernatur eius officia. Dignissimos.
+                        </p>
+                    </article>
+                </div>
+
+                <div id="sidebar">
+                    <aside>
+                        <h2>Sidebar Heading</h2>
+                        <ul>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                        </ul>
+                    </aside>
+                </div>
+
+            </div>
+
+            <footer>
+                <div id="footer">
+                    <p> &copy; All rights reserved</p>
+                </div>
+            </footer>
+
+    </div>
+
+    <script type="text/javascript" src="assets\js\jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
+</body>
+
+</html>
